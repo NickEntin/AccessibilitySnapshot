@@ -12,6 +12,7 @@
 		3D04B6DB21155D92006218A4 /* ButtonAccessibilityTraitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D04B6DA21155D92006218A4 /* ButtonAccessibilityTraitsViewController.swift */; };
 		3D0AC55C222DD70A00B6F1C1 /* UserInterfaceDirectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0AC55B222DD70A00B6F1C1 /* UserInterfaceDirectionViewController.swift */; };
 		3D13DB522221124000066519 /* ObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D13DB512221124000066519 /* ObjectiveCTests.m */; };
+		3D26C3F424A2BD5000401670 /* ButtonShapesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D26C3F324A2BD5000401670 /* ButtonShapesTests.swift */; };
 		3D39BFAC223314C1009C3EF4 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39BFAB223314C1009C3EF4 /* TabBarViewController.swift */; };
 		3D39BFB02239BC42009C3EF4 /* ActivationPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39BFAF2239BC42009C3EF4 /* ActivationPointTests.swift */; };
 		3D39BFB22239BEA6009C3EF4 /* ActivationPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39BFB12239BEA5009C3EF4 /* ActivationPointViewController.swift */; };
@@ -80,6 +81,7 @@
 		3D0AC55B222DD70A00B6F1C1 /* UserInterfaceDirectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInterfaceDirectionViewController.swift; sourceTree = "<group>"; };
 		3D13DB502221124000066519 /* SnapshotTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SnapshotTests-Bridging-Header.h"; path = "Supporting Files/SnapshotTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		3D13DB512221124000066519 /* ObjectiveCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCTests.m; sourceTree = "<group>"; };
+		3D26C3F324A2BD5000401670 /* ButtonShapesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonShapesTests.swift; sourceTree = "<group>"; };
 		3D39BFAB223314C1009C3EF4 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		3D39BFAF2239BC42009C3EF4 /* ActivationPointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationPointTests.swift; sourceTree = "<group>"; };
 		3D39BFB12239BEA5009C3EF4 /* ActivationPointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationPointViewController.swift; sourceTree = "<group>"; };
@@ -274,6 +276,7 @@
 				3DBAC28622406EBB00EF4D0A /* AccessibilityContainersTests.swift */,
 				607FACEB1AFB9204008FA782 /* AccessibilityPropertiesTests.swift */,
 				3D39BFAF2239BC42009C3EF4 /* ActivationPointTests.swift */,
+				3D26C3F324A2BD5000401670 /* ButtonShapesTests.swift */,
 				3DEBF24F22101EE40065424F /* DefaultControlsTests.swift */,
 				3DF464FF220D5FB00048D446 /* ElementSelectionTests.swift */,
 				3DF46503220D8C500048D446 /* ElementOrderTests.swift */,
@@ -604,6 +607,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D26C3F424A2BD5000401670 /* ButtonShapesTests.swift in Sources */,
 				3D13DB522221124000066519 /* ObjectiveCTests.m in Sources */,
 				3DC2C67C21F46020003184E4 /* HighlightTests.swift in Sources */,
 				3DF464FC220D4F430048D446 /* SnapshotTestCase.swift in Sources */,

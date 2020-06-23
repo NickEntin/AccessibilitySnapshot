@@ -42,6 +42,12 @@
                           named:"UIAccessibilityIsInvertColorsEnabled"];
 }
 
+- (void)mockButtonShapesEnabledStatus API_AVAILABLE(ios(14));
+{
+    [self mockStatusForFunction:&UIAccessibilityButtonShapesEnabled
+                          named:"UIAccessibilityButtonShapesEnabled"];
+}
+
 - (void)mockStatusForFunction:(void *)function named:(const char *)functionName;
 {
     struct rebinding rerebinding = {functionName, function, NULL};
