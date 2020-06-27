@@ -11,7 +11,7 @@ jobs:
     runs-on: macOS-latest
     strategy:
       matrix:
-        platform: ['iOS_13', 'iOS_12', 'iOS_11']
+        platform: ['iOS_13'] #'iOS_12', 'iOS_11']
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v2
@@ -23,6 +23,11 @@ jobs:
         run: Scripts/build.swift xcode ${{ matrix.platform }} # `which xcpretty`
         # env:
         #   platform: $
+      - name: Upload Results
+        uses: actions/upload-artifact@v2
+        with:
+          name: Test Results
+          path:
   pod-lint:
     name: Pod Lint
     runs-on: macOS-latest
