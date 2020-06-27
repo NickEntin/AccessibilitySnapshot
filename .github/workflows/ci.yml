@@ -25,9 +25,10 @@ jobs:
         #   platform: $
       - name: Upload Results
         uses: actions/upload-artifact@v2
+        if: failure()
         with:
           name: Test Results
-          path:
+          path: .build/derivedData/AccessibilitySnapshot-*/Logs/Test/*.xcresult
   pod-lint:
     name: Pod Lint
     runs-on: macOS-latest
