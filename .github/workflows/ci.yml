@@ -28,7 +28,8 @@ jobs:
         if: failure()
         with:
           name: Test Results
-          path: .build/derivedData/**/Logs/Test/*.xcresult
+          # path: .build/derivedData/**/Logs/Test/*.xcresult
+          path: /Users/runner/work/AccessibilitySnapshot/AccessibilitySnapshot/.build/derivedData/iOS_13/Logs/Test/*.xcresult
   pod-lint:
     name: Pod Lint
     runs-on: macOS-latest
