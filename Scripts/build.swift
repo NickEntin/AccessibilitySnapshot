@@ -62,7 +62,7 @@ enum Platform: String, CustomStringConvertible {
 	}
 
 	var derivedDataPath: String {
-		return ".build/derivedData"
+		return ".build/derivedData/\(rawValue)"
 	}
 
 	var description: String {
